@@ -4,7 +4,7 @@ TASKDIR = ../../tasks/06-Scale-Vector-Hints
 SOLUTIONDIR = ../../solutions/06-Scale-Vector-Hints
 
 PROCESSFILES = scale_vector_um.cu
-COPYFILES = Makefile Instructions.ipynb Instructions.md .sync.toml
+COPYFILES = Makefile Instructions.ipynb Instructions.md
 
 
 TASKPROCCESFILES = $(addprefix $(TASKDIR)/,$(PROCESSFILES))
